@@ -31,7 +31,7 @@ app.use(cors())
 app.use(bodyParser.json());
 
 app.get('/', (req, res)=> {
-  res.send(db.users);
+  res.send('Backend is up and running.');
 });
 
 
